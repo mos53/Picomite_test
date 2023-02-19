@@ -9,7 +9,7 @@ Option explicit
 Dim float temp, humidity
 Bitbang humid 31 , temp, humidity, 1
 Print "The temperature is " temp " and humidity is " humidity
-
+ '
 
 Const menu_levels = 3
 Const KEY1 = 22  'GP17
